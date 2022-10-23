@@ -21,6 +21,44 @@ h6{
 button
 {
     margin-left: 40%;
+    background-color: black;
+}
+.shadoBtn{
+    width: 120px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+   
+    
+}
+.shadoBtn:hover
+{
+    background-color: white;
+    color: black;
+    transition: ls ease;
+    
+}
+.shadoBtn::before
+{
+    content: '';
+    position: absolute;
+    
+    background: transparent;
+    height: 50%;
+    width: 100%;
+    transform: perspective(lem) rotateX(40deg) scale(1, 0.35);
+    filter: blur(8px);
+    transition: ls ease;
+}
+.shadoBtn:hover::before
+{
+    background: white;
+    top: 70%;
+    
 }
 h5
 {
