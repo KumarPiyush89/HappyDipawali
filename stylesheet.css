@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Sacramento");
 body
 {
     background-color: #212121;
@@ -5,8 +6,8 @@ body
     background: black;
     background-image: url(unnamed.png);
 }
-@import url("https://fonts.googleapis.com/css?family=Sacramento");
-.container
+
+.container-fluid
 {
     height: 200px;
     width: 600px;
@@ -17,7 +18,14 @@ body
     right: 0;
     margin: auto;
 }
-.container .title
+.container-fluid 
+{
+    font-size: 5rem;
+    color: rgba(255,255,255,0.5);
+    text-align: center;
+    text-shadow: 0px 2px 1px orange, 0px 0px 6px orangered,0px 5px 10px rgba(0,0,0,1);
+}
+p
 {
     font-size: 5rem;
     color: rgba(255,255,255,0.5);
@@ -98,9 +106,53 @@ body
     animation-delay: 3s;
 }
 .fireworks li:nth-child(7) span {
+    animation-delay:3.5s;
+
+    }
+.fireworks li:nth-child(8) span {
     animation-delay:4s;
 
     }
+.fireworks li:nth-child(9) span 
+{
+    animation-delay:4.5s;
+
+}    
+.fireworks li:nth-child(10) span 
+{
+    animation-delay:5s;
+
+}    
+.fireworks li:nth-child(11) span 
+{
+    animation-delay:5.5s;
+
+}    
+.fireworks li:nth-child(12) span 
+{
+    animation-delay:6s;
+
+}    
+.fireworks li:nth-child(13) span 
+{
+    animation-delay:6.5s;
+
+}    
+.fireworks li:nth-child(14) span 
+{
+    animation-delay:7s;
+
+}    
+.fireworks li:nth-child(15) span 
+{
+    animation-delay:7.5s;
+
+}    
+.fireworks li:nth-child(16) span 
+{
+    animation-delay:8s;
+
+}    
 @keyframes fire
 {
     0%,
