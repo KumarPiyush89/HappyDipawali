@@ -1,74 +1,87 @@
 body
 {
-    background-image: url("WhatsApp Image 2022-10-23 at 8.52.38 PM.jpeg");
+    /*background-image: url("WhatsApp Image 2022-10-23 at 8.52.38 PM.jpeg");*/
+    /*background-image: url(KumarPiyush.jpeg);*/
+    /*background-color: rgba(248, 1, 178,224);*/
     background-position: center center;
+    background-color: rgba(243, 214, 243, 0.886);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    margin: 0;
+    margin: 10;
     padding: 0;
 }
-h1{
-    margin-top: 40%;
-    margin-left: 20%;
-    font-style: oblique;
-    font-size: 50px;
-    color: whitesmoke;
+img
+{
+    border-radius:60%;
+    /*border-right-width: 50%;*/
+   /* border-radius: 21rem;*/
 }
-h6{
-   
-    margin-left: 25%;
+span
+{
+    
+    margin-left: 15%;
+    font-size: 60px;
+    
+}
+del
+{
+    font-family:'Brush Script MT', cursive;
+    
+    font-size: 40px;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+}
+ul
+{
+    list-style: none;
+}
+nav
+{
+    background-color: #ffcfe8;
+    padding: 10px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+nav ul li
+{
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: 700;
+    margin: 0 7%;
+}
+a:hover
+{
+    border-bottom: 2px solid white;
+}
+#portfolio
+{
+    float: left;
 }
 button
 {
-    margin-left: 40%;
-    background-color: black;
+    margin-top: 50%;
+    margin-left: 15%;
 }
-.shadoBtn{
-    width: 120px;
-    height: 60px;
-    border-radius: 10px;
-    border: 2px solid white;
-    background-color: transparent;
-    color: white;
-    cursor: pointer;
-    position: relative;
-   
+h3
+{
+    margin-top: 50%;
     
 }
-.shadoBtn:hover
+#placeholder
 {
-    background-color: white;
-    color: black;
-    transition: ls ease;
-    
-}
-.shadoBtn::before
-{
-    content: '';
-    position: absolute;
-    
-    background: transparent;
-    height: 50%;
-    width: 100%;
-    transform: perspective(lem) rotateX(40deg) scale(1, 0.35);
-    filter: blur(8px);
-    transition: ls ease;
-}
-.shadoBtn:hover::before
-{
-    background: white;
-    top: 70%;
-    
-}
-h5
-{
-    margin-top: 30%;
-    margin-left: 50%;
+    color: blue;
 }
 h2 {
     
-    background-color: rgba(112, 112, 112, 0.8);
+    background-color: #D86E83;
     padding: 5px 5px;
     
     margin-top: 5%;
@@ -77,11 +90,9 @@ h2 {
     border: 2px solid white;
     border-radius: 20px;
 }
-.logo {
-    text-decoration: none;
-    font-size: 300px;
-    font-family: inherit;
-    font-weight: 900;
-    margin: 20px;
-    color: inherit;
+h4
+{
+    background-color: #FCF4D9;
+    border-radius: 20px;
+    border: 2px solid black;
 }
